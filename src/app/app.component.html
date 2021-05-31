@@ -2,7 +2,6 @@
   <app-sticker class="sticker" 
     [data] = sticker
     *ngFor="let sticker of stickers"
-  (stickerDelete) = "deleteSticker($event)"
-  (stickerEdited) = "editSticker($event)"></app-sticker>
+  (stickerDelete) = "deleteSticker($event)"></app-sticker>
   <app-sticker-create-panel (stickerCreated) = "createSticker($event)"></app-sticker-create-panel>
 </div>

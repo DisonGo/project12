@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { StickerComponent } from './sticker/sticker.component';
 import { StickerCreatePanelComponent } from './sticker-create-panel/sticker-create-panel.component';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,8 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    HttpClientModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
